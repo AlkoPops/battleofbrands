@@ -1,20 +1,4 @@
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://unpkg.com/three@0.149.0/build/three.module.js",
-      "three/addons/": "https://unpkg.com/three@0.149.0/examples/jsm/"
-    }
-  }
-</script>
 
-<script type="module">
-    import * as THREE from "three";
-    import { GLTFLoader } from "three/addons/loaders/GLTFLoader";
-    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-    import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
-
-
-window.THREE = THREE;
 
 
 
