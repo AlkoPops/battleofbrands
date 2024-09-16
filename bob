@@ -48,7 +48,7 @@ camera.lookAt(new THREE.Vector3(0, 1.8, 0)); // Make the camera look at the orig
 
 //EnvironmentMap
 const hdriLoader = new RGBELoader()
-hdriLoader.load('assets/royal_esplanade_1k.hdr', function (texture) {
+hdriLoader.load('https://corsproxy.io/?https://alexanderkoschel.de/royal_esplanade_1k.hdr', function (texture) {
   texture.mapping = THREE.EquirectangularReflectionMapping;
   //scene.background = texture;
   scene.environment = texture;
@@ -309,7 +309,7 @@ scene.add(mesh14);
 //Models
     //GLTF
 const gltfLoader = new GLTFLoader();
-        gltfLoader.load("assets/NewStudio.glb", (gltf) => {
+        gltfLoader.load("https://corsproxy.io/?https://alexanderkoschel.de/NewStudio.glb", (gltf) => {
           gltf.scene.scale.set(2, 2, 2);
           gltf.scene.castShadow = true;
           gltf.scene.receiveShadow = true;
