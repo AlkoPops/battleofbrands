@@ -358,5 +358,3 @@ ScrollTrigger.create({
   scrub: 1,
 });
 
-
-  </script>
